@@ -3,7 +3,16 @@
     border-radius: 20px;
     margin-top: 2rem;
 }
-
+.banner2{
+    background: linear-gradient(to right, #8e9eab, #eef2f3); 
+}
+.stroke-text{
+    fill            : none;
+    stroke          : black;
+    stroke-width    : .5px;
+    stroke-linejoin : round;
+    animation       : 2s pulsate infinite;
+}
 @media (max-width:768px) {
     .image {
         margin-top: 1rem;
