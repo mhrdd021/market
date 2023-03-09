@@ -12,17 +12,15 @@ import BlogsCard from "./home/BlogsCard";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="container">
       <Slider />
-      <div className="container">
-        <Categories />
-        <SpecialOffers />
-        <LatestProducts />
-        <BestSellingProducts />
-        <OurBrands />
-        <ImagesBox />
-        <BlogsCard />
-      </div>
+      <Categories />
+      <SpecialOffers />
+      <LatestProducts />
+      <BestSellingProducts />
+      <OurBrands />
+      <ImagesBox />
+      <BlogsCard />
     </div>
   );
 };
