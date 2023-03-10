@@ -1,10 +1,10 @@
 import React from 'react';
 
 //Images
-import image1 from "../../assets/img/imagebox1.jpg";
-import image2 from "../../assets/img/imagebox2.jpg";
-import image3 from "../../assets/img/imagebox3.jpg";
-import image4 from "../../assets/img/imagebox4.jpg";
+import image1 from "../../assets/img/basketball1.jpg";
+import image2 from "../../assets/img/basketball2.jpg";
+import image3 from "../../assets/img/basketball3.jpg";
+import image4 from "../../assets/img/basketball4.jpg";
 
 //Styles
 import styles from "./ImagesBox.module.css";

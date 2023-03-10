@@ -3,8 +3,7 @@ import React from "react";
 //Styles
 import styles from "./TopFooter.css";
 
-//Images
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 const TopFooter = () => {
   return (

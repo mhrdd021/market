@@ -17,10 +17,10 @@ const OurBrands = () => {
         <small>Our brands</small>
       </div>
       <div className={styles.brands}>
-          <div className={styles.image}><img src={adidas} alt="brands" /></div>
-          <div className={styles.image}><img src={zara} alt="brands" /></div>
-          <div className={styles.image}><img src={puma} alt="brands" /></div>
-          <div className={styles.image}><img src={nike} alt="brands" /></div>
+          <div className={styles.image}><img className="mx-auto" src={adidas} alt="brands" /></div>
+          <div className={styles.image}><img className="mx-auto" src={zara} alt="brands" /></div>
+          <div className={styles.image}><img className="mx-auto" src={puma} alt="brands" /></div>
+          <div className={styles.image}><img className="mx-auto" src={nike} alt="brands" /></div>
       </div>
     </div>
   );

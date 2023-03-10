@@ -2,7 +2,6 @@ import React from "react";
 
 //Components
 import Slider from "./home/Slider";
-import Categories from "./home/Categories";
 import SpecialOffers from "./home/SpecialOffers";
 import LatestProducts from "./home/LatestProducts";
 import BestSellingProducts from "./home/BestSellingProducts";
@@ -14,7 +13,6 @@ const HomePage = () => {
   return (
     <div className="container">
       <Slider />
-      <Categories />
       <SpecialOffers />
       <OurBrands />
       <ImagesBox />
