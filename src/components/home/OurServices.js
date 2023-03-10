@@ -1,9 +1,9 @@
 import React from "react";
 
 //Images
-import store from "../../assets/img/store.png";
-import support from "../../assets/img/support.png";
-import delivery from "../../assets/img/delivery.png";
+import shop from "../../assets/img/shop.svg";
+import time from "../../assets/img/time.svg";
+import delivery from "../../assets/img/delivery.svg";
 
 //Components
 import Services from "../shared/Services";
@@ -17,18 +17,18 @@ const OurServices = () => {
       <div className={styles.ourServices}>
         <Services
           title="ارسال رایگان"
-          subtitle="برای سفارش های بالای 300 هزار تومان"
+          subtitle="برای سفارش های بالای 400 هزار تومان"
           image={delivery}
         />
         <Services
           title="پشتیبانی"
           subtitle="هر روز هفته 24 ساعت شبانه روز"
-          image={support}
+          image={time}
         />
         <Services
           title="تنوع محصولات"
-          subtitle="بیش از 3000 کالای موجود "
-          image={store}
+          subtitle="بیش از 2500 کالای موجود "
+          image={shop}
         />
       </div>
     </div>

@@ -25,7 +25,7 @@ const BlogsCard = () => {
     blogs.length > 3 && (
       <div className="carousel-slider">
         <div className="title-homepage">
-          <h2>مطالب اخیر</h2>
+          <h2>آخرین مقالات</h2>
           <small>Recent Blogs</small>
         </div>
         <div className={styles.blogs}>

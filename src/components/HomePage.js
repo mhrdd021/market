@@ -16,8 +16,6 @@ const HomePage = () => {
       <Slider />
       <Categories />
       <SpecialOffers />
-      <LatestProducts />
-      <BestSellingProducts />
       <OurBrands />
       <ImagesBox />
       <BlogsCard />

@@ -14,30 +14,30 @@ const TopFooter = () => {
                     <div class="col-lg-4 col-sm-4 col-xs-12">
                         <div class="single_footer">
                             <h4>فروشگاه</h4>
-                            <p className="text-blue-600">
+                            <p className="font-thin" style={{color:"#E6EAF6"}}>
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده.
                             </p>
                         </div>
                     </div> 
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12 sm:text-center">
                         <div class="single_footer single_footer_address">
-                            <h4>Page Link</h4>
+                            <h5 className="topic">لینک‌های  پرکاربرد</h5>
                             <ul>
-                                <li><a href="#">Lorem Ipsum</a></li>
-                                <li><a href="#">Simply dummy text</a></li>
-                                <li><a href="#">The printing and typesetting </a></li>
-                                <li><a href="#">Standard dummy text</a></li>
-                                <li><a href="#">Type specimen book</a></li>
+                                <li><a href="#">صفحه اصلی</a></li>
+                                <li><a href="#">مردانه</a></li>
+                                <li><a href="#">زنانه</a></li>
+                                <li><a href="#">تخفیف‌دار</a></li>
+                                <li><a href="#">جدیدترین</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="single_footer single_footer_address">
-                            <h4>Subscribe today</h4>
+                            <h5 className="topic">ثبت‌نام کنید</h5>
                             <div class="signup_form">                           
                                 <form action="#" class="subscribe">
-                                    <input type="text" class="subscribe__input" placeholder="Enter Email Address"></input>
                                     <button type="button" class="subscribe__btn"><i class="fas fa-paper-plane"></i></button>
+                                    <input type="text" class="subscribe__input" placeholder="آدرس ایمیل"></input>
                                 </form>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ const TopFooter = () => {
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-sm-12 col-xs-12">
-                        <p class="copyright">Copyright © 2019 <a href="#">Akdesign</a>.</p>
+                        <p class="copyright">Copyright © 2019 <a href="#">MHRDD</a>.</p>
                     </div>                
                 </div>                
             </div>
