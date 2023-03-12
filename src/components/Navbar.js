@@ -29,7 +29,7 @@ const Navbar = () => {
             <img src={menu ? cross : hamburger} alt="hamburger" />
           </div>
           <div className={styles.logo}>
-            <img src={logo} alt="logo" />
+            <h2 className="text-2xl font-bold">REACT JS <span className="text-red-600 text-sm">mhrdd</span></h2>
           </div>
           <div className={styles.search}>
             <input type="search" placeholder="جستجو..." />

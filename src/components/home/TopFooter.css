@@ -40,7 +40,7 @@ h1,
         }
 .footer {
     margin-top: 2rem;
-    background: #A0D2EB;
+    background: #CF291D;
     padding-top: 80px;
     padding-bottom: 40px;
 }
@@ -88,7 +88,7 @@ h1,
     font-size: 15px;
     text-transform: capitalize;
 }
-.single_footer ul li a:hover { color: #8559AE; }
+.single_footer ul li a:hover { color: #BFBFBF; }
 
 .single_footer_address{}
 .single_footer_address ul{}
@@ -133,7 +133,7 @@ width: 100%;
 .subscribe__btn {
 background-color: transparent;
 border-radius: 0 25px 25px 0;
-color: #01c7e9;
+color: #BFBFBF;
 cursor: pointer;
 display: block;
 font-size: 20px;
@@ -149,7 +149,7 @@ width: 60px;
 }
 
 .subscribe__btn:hover i{
-    color:#8559AE;
+    color:#CF291D;
 }
 button {
     padding: 0;

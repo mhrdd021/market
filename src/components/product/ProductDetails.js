@@ -31,13 +31,7 @@ const ProductDetails = ({ data }) => {
   return (
     <div className={styles.productDetails}>
       <div className={styles.productImage}>
-        <img src={data.image} alt="productImage" />
-        <span className={styles.addToFavorite}>
-          <i className="fas fa-heart"></i>
-        </span>
-        <span className={styles.share}>
-          <i className="fas fa-share-alt"></i>
-        </span>
+        <img src={data.image} alt="productImage"/>
       </div>
       <div className={styles.details}>
         <div className={styles.rightDetails}>
@@ -54,7 +48,7 @@ const ProductDetails = ({ data }) => {
               {data.description.size ? "سایز :" : "رنگ :"}
             </label>
             <select id="size" onChange={(e) => setSizes(e.target.value)}>
-              <option value="">
+              <option  className="px-4" value="">
                 {data.description
                   ? "انتخاب سایز مورد نظر"
                   : "انتخاب رنگ مورد نظر"}

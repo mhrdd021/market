@@ -6,11 +6,14 @@ import { ToastContainer } from "react-toastify";
 import validate from "./security/formValidate";
 
 //Styles
-import styles from "./SingUp.module.css";
+import styles from "./Login.module.css";
 import "react-toastify/dist/ReactToastify.css";
 
 //Functions
 import { notify } from "../helper/function";
+
+//Images
+import LoginImage from '../assets/img/form2.jpg'
 
 const Login = () => {
   const [data, setData] = useState({
@@ -50,6 +53,10 @@ const Login = () => {
   return (
     <div className="container">
       <form onSubmit={submitHandler} className={styles.formContainer}>
+        <div className="w-1/2">
+            <img src={LoginImage}></img>
+        </div>
+        <div className="w-1/2">
         <h2 className={styles.header}>فرم ورود</h2>
         <div className={styles.formBox}>
           <label>پست الکترونیکی</label>
@@ -85,7 +92,9 @@ const Login = () => {
           <button>ورود</button>
           <Link to="/signup">ثبت نام</Link>
         </div>
+        </div>
       </form>
+
       <ToastContainer />
     </div>
   );

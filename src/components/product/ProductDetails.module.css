@@ -40,7 +40,8 @@
 
 .title {
   color: #0a1e35;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .category {
@@ -157,7 +158,7 @@
 .addToCartBtn {
   width: 100%;
   padding: 8px;
-  background-color: #fa4c4c;
+  background-color: #CF291D;
   border: none;
   outline: none;
   cursor: pointer;

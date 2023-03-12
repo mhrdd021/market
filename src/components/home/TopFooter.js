@@ -9,16 +9,16 @@ const TopFooter = () => {
   return (
     <div class="footer">
             <div class="container">     
-                <div class="row">                       
-                    <div class="col-lg-4 col-sm-4 col-xs-12">
+                <div class="row sm:flex">                       
+                    <div class="lg:w-4/12 sm:w-4/12 xs:w-full">
                         <div class="single_footer">
                             <h4>فروشگاه</h4>
-                            <p className="font-thin" style={{color:"#E6EAF6"}}>
+                            <p className="font-thin" style={{color:"#fff"}}>
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده.
                             </p>
                         </div>
                     </div> 
-                    <div class="col-md-4 col-sm-4 col-xs-12 sm:text-center">
+                    <div class="md:w-4/12 sm:w-4/12 xs:w-full sm:text-center">
                         <div class="single_footer single_footer_address">
                             <h5 className="topic">لینک‌های  پرکاربرد</h5>
                             <ul>
@@ -30,7 +30,7 @@ const TopFooter = () => {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="md:w-4/12 sm:w-4/12 xs:w-full">
                         <div class="single_footer single_footer_address">
                             <h5 className="topic">ثبت‌نام کنید</h5>
                             <div class="signup_form">                           

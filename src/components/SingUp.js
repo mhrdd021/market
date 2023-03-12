@@ -12,6 +12,8 @@ import "react-toastify/dist/ReactToastify.css";
 //Functions
 import { notify } from "../helper/function";
 
+//Image
+import SignUpImage from '../assets/img/form1.png'
 
 const SingUp = (props) => {
   const [data, setData] = useState({
@@ -57,6 +59,10 @@ const SingUp = (props) => {
   return (
     <div>
       <form onSubmit={submitHandler} className={styles.formContainer}>
+      <div className="w-8/12">
+            <img src={SignUpImage} className='relative top-1/4'></img>
+        </div>
+        <div className="w-8/12">
         <h2 className={styles.header}>فرم ثبت نام</h2>
         <div className={styles.formBox}>
           <label>نام و نام خانوادگی</label>
@@ -145,6 +151,7 @@ const SingUp = (props) => {
         <div className={styles.formButtons}>
           <button>ثبت نام</button>
           <Link to="/login">ورود</Link>
+        </div>
         </div>
       </form>
       <ToastContainer />

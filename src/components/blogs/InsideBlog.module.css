@@ -30,6 +30,8 @@
 .title {
     color: #0a1e35;
     margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .description{
