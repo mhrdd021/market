@@ -27,11 +27,14 @@
 .header h3 {
     color: #0a1e35;
     font-weight: 500;
+    text-align: center;
 }
 
-.header small {
+.header h4 {
     color: #666;
     font-family: iranyekan;
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 .empty {
@@ -44,7 +47,7 @@
 }
 
 .empty a {
-    color: #5463FF;
+    color: #CF291D;
 }
 
 @media(max-width:990px) {

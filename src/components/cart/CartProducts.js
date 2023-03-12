@@ -15,7 +15,6 @@ const CartProducts = ({ productData, dispatch, state }) => {
         </div>
         <div className={styles.details}>
           <h3 className={styles.title}>{productData.title}</h3>
-          <small className={styles.sizeOrColo}>{productData.size}</small>
           <div className={styles.prices}>
             <p
               className={

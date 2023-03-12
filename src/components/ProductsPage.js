@@ -1,16 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-//Api
-import { productsAPI } from "../services/api";
-
 //Components
 import BreadCrumb from "./product/BreadCrumb";
 import ProductDetails from "./product/ProductDetails";
-import ProductInfo from "./product/ProductInfo";
 import Comments from "./product/Comments";
 import Loading from "./shared/Loading";
-import RelatedProduct from "./product/RelatedProduct";
 
 //Images
 import jordan1 from '../assets/img/jordan1.png'

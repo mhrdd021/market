@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 
 //Styles
 import styles from "./Blogs.module.css";

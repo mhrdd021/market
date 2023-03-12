@@ -40,9 +40,6 @@ const ShopFilter = ({ filtered, filterHandler }) => {
               <li id="category زنانه" onClick={filterHandler}>
                 زنانه
               </li>
-              <li id="category بچگانه" onClick={filterHandler}>
-                بچگانه
-              </li>
             </ul>
           </div>
         </div>
@@ -54,7 +51,6 @@ const ShopFilter = ({ filtered, filterHandler }) => {
               type="number"
               name="fromPrice"
               onChange={filterHandler}
-              value={filtered.fromPrice}
             />
             <small className={styles.unitPrice}>تومان</small>
           </div>
@@ -64,7 +60,6 @@ const ShopFilter = ({ filtered, filterHandler }) => {
               type="number"
               name="toPrice"
               onChange={filterHandler}
-              value={filtered.toPrice}
             />
             <small className={styles.unitPrice}>تومان</small>
           </div>

@@ -17,7 +17,7 @@
 }
 
 .breadcrumb .pages {
-  color: #5463ff;
+  color: #CF291D;
 }
 
 .sort {
@@ -33,7 +33,7 @@
 
 .selector .deactive {
   padding: 8px 15px;
-  background-color: rgba(84, 98, 255, 0.26);
+  background-color: rgba(207,41,29, 0.26);
   margin-left: 8px;
   border-radius: 10px;
   color: #444;
@@ -42,7 +42,7 @@
 
 .active {
   padding: 8px 15px;
-  background-color: #5463ff;
+  background-color: #CF291D;
   margin-left: 8px;
   border-radius: 10px;
   color: #fff;
@@ -54,7 +54,7 @@
     flex-direction: column;
     position: relative;
     padding: 4px 10px;
-    background-color: rgba(84, 98, 255, 0.26);
+    background-color: rgba(207,41,29, 0.26);
     margin-left: 8px;
     border-radius: 10px;
     color: #444;
@@ -86,7 +86,7 @@
     background-color: transparent;
     margin-left: 0px;
     border-radius: 10px;
-    color: #5463ff;
+    color: #CF291D;
     cursor: pointer;
   }
 

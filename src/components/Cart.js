@@ -23,7 +23,7 @@ const Cart = () => {
           <div className={styles.CartProducts}>
             <div className={styles.header}>
               <h3>سبد خرید شما</h3>
-              <small>{state.itemCounter} کالا</small>
+              <h4>{state.itemCounter} کالا</h4>
             </div>
             {state.selectedItem.length ? (
               state.selectedItem.map((product) => (
@@ -36,7 +36,7 @@ const Cart = () => {
               ))
             ) : (
               <div className={styles.empty}>
-                <img src={cartEmpty} alt="trahs" />
+                <img src={cartEmpty} alt="trahs" className="mx-auto"/>
                 <h3>سبد خرید شما خالی است.</h3>
                 <Link to="/shop">فروشگاه </Link>
               </div>
