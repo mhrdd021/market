@@ -53,10 +53,7 @@ const Login = () => {
   return (
     <div className="container">
       <form onSubmit={submitHandler} className={styles.formContainer}>
-        <div className="w-1/2">
-            <img src={LoginImage}></img>
-        </div>
-        <div className="w-1/2">
+        <div className="w-full">
         <h2 className={styles.header}>فرم ورود</h2>
         <div className={styles.formBox}>
           <label>پست الکترونیکی</label>

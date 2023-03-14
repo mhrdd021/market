@@ -1,6 +1,6 @@
 .formContainer {
     padding: 1rem 2rem;
-    width: 50%;
+    width: 30%;
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 4rem auto;
@@ -81,4 +81,9 @@
     text-decoration: none;
     color: #0f4ed6;
     font-size: 1.1rem;
+}
+@media screen and (max-width:768px) {
+    .formContainer{
+        width: 90%;
+    }
 }

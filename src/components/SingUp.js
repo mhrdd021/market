@@ -59,10 +59,7 @@ const SingUp = (props) => {
   return (
     <div>
       <form onSubmit={submitHandler} className={styles.formContainer}>
-      <div className="w-8/12">
-            <img src={SignUpImage} className='relative top-1/4'></img>
-        </div>
-        <div className="w-8/12">
+        <div className="w-full">
         <h2 className={styles.header}>فرم ثبت نام</h2>
         <div className={styles.formBox}>
           <label>نام و نام خانوادگی</label>

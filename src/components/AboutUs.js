@@ -1,7 +1,7 @@
 import React from "react";
 
 //images
-import cloShop from "../assets/img/closhop.jpg";
+import cloShop from "../assets/img/form1.png";
 
 //styles
 import styles from "./AboutUs.module.css";
